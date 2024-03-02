@@ -16,9 +16,9 @@
 --> the dafult IP address is: localHost but you can change it by using related env. variabale.
 
 to run the docker container, execute following command:
-		docker run -d -p 8080:8080 your-image-name
+		-- docker run -d -p 8080:8080 your-image-name
  you can add any envirenemnt variable by -e command
 
 ### As a war file(in java environement)
  for running with following command
-		nohup java -jar "search-service-0.0.1-SNAPSHOT.war" .& tail -f nohup.out 
+		-- nohup java -jar "search-service-0.0.1-SNAPSHOT.war" .& tail -f nohup.out 
