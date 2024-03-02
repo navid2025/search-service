@@ -8,12 +8,11 @@
 - max-albums-number --> default valuse is: 5
 - max-books-number --> default valuse is: 5
 - google-api-address --> default valuse is: https://www.googleapis.com
-- itunes-api-address --> default valuse is:https://itunes.apple.com
-- core-pool-size --> default valuse is:https:3
-- max-pool-size --> default valuse is:https:8
-- queue-size --> default valuse is:https:15
+- itunes-api-address --> default valuse is: https://itunes.apple.com
+- core-pool-size --> default valuse is:3
+- max-pool-size --> default valuse is:8
+- queue-size --> default valuse is:15
 
---> you can run the project after build it:
 ## After build with maven you have 2 approachs to run:
 
 ### As a docker container(you have image)--> the deafult port of the application is 8080 but you can change it by using env. variable.
