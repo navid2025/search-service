@@ -1,4 +1,8 @@
-## For running app there are some env. variable that you can customized it based on your env. they are same as follow:
+# Smart Path
+### To build the project you can use maven wrapper of the project:
+- mvnw clean package
+
+### For running app there are some env. variable that you can customized it based on your env. they are same as follow:
 - server-address --> default valuse is:localhost
 - server-port --> default valuse is:8080
 - max-albums-number --> default valuse is: 5
